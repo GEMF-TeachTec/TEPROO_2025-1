@@ -19,7 +19,7 @@ public class Principal {
 		categoria = scan.next().charAt(0);
 		categoria = Character.toUpperCase(categoria);
 		
-		scan.close();
+		scan.close();	//Cerrar el scanner
 		
 		//Proceso
 		//Determinar la tarifa segun la categoría
